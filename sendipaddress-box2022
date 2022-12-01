@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+
+echo `date` > /home/a/sendip/ip-box2022.txt
+echo `hostname -I` >> /home/a/sendip/ip-box2022.txt
+
+cd /home/a/sendip
+sudo -u a git add .
+sudo -u a git commit -m "Submitting ip."
+sudo -u a git push 
