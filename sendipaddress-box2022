@@ -4,8 +4,8 @@ echo `date` > /home/a/sendip/ip-box2022.txt
 echo `hostname -I` >> /home/a/sendip/ip-box2022.txt
 
 cd /home/a/sendip
-sudo -u a git add . >> /home/a/sendip.log 2>&1
-sudo -u a git commit -m "Submitting ip." >> /home/a/sendip.log 2>&1
-#sudo -u a git push >> /home/a/sendip.log 2>&1
-git push >> /home/a/sendip.log 2>&1
+sudo -u a git add . > /home/a/sendip/sendip.log 2>&1
+sudo -u a git commit -m "Submitting ip." >> /home/a/sendip/sendip.log 2>&1
+sudo -u a git push >> /home/a/sendip/sendip.log 2>&1
+
 
