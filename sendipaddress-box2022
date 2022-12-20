@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+touch /home/a/sendip.txt
+
 echo `date` > /home/a/sendip/ip-box2022.txt
 echo `hostname -I` >> /home/a/sendip/ip-box2022.txt
 
