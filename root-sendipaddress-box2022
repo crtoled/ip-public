@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+echo `date` > /root/sendip/ip-box2022.txt
+echo `hostname -I` >> /root/sendip/ip-box2022.txt
+
+cd /root/sendip
+git add . > /root/sendip/sendip.log 2>&1
+git commit -m "Submitting ip." >> /root/sendip/sendip.log 2>&1
+git push >> /root/sendip/sendip.log 2>&1
+
+
