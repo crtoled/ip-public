@@ -2,7 +2,7 @@
 
 cp /etc/hosts /etc/hosts_old
 rm -f /tmp/tmp_hosts
-awk '!/homebox/ && !/120s' /etc/hosts > /tmp/tmp_hosts && mv /tmp/tmp_hosts /etc/hosts
+awk '!/homebox/ && !/120s/' /etc/hosts > /tmp/tmp_hosts && mv /tmp/tmp_hosts /etc/hosts
 
 # the 'raw file' on github is not updated properly.
 #echo `curl -s https://raw.githubusercontent.com/crtoled/ip-public/main/ip.txt | tail -n1` 'homebox'  >> /etc/hosts
