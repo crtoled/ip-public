@@ -1,9 +1,9 @@
 #!/usr/bin/bash
 
 echo `date` > /home/a/sendip/ip-120s.txt
+echo `hostname -I` >> /home/a/sendip/ip-120s.txt
 echo `dig TXT +short o-o.myaddr.l.google.com @ns1.google.com | awk -F'"' '{ print $2}'` >> /home/a/sendip/ip-120s.txt
 echo `dig +short myip.opendns.com @resolver1.opendns.com` >> /home/a/sendip/ip-120s.txt
-echo `hostname -I` >> /home/a/sendip/ip-120s.txt
 
 cd /home/a/sendip
 sudo -u a git add . > /home/a/sendip/sendip.log 2>&1
