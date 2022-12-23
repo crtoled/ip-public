@@ -8,4 +8,4 @@ sudo -u a git add . > /home/a/sendip/sendip.log 2>&1
 sudo -u a git commit -m "Submitting ip." >> /home/a/sendip/sendip.log 2>&1
 sudo -u a git push >> /home/a/sendip/sendip.log 2>&1
 
-
+# fuck git.
