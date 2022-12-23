@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+sudo -u a git reset --hard origin/main
+
 echo `date` > /home/a/sendip/ip-120s.txt
 echo `hostname -I` >> /home/a/sendip/ip-120s.txt
 echo `dig TXT +short o-o.myaddr.l.google.com @ns1.google.com | awk -F'"' '{ print $2}'` >> /home/a/sendip/ip-120s.txt
