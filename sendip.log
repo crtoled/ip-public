@@ -1,5 +1,9 @@
-[main ea11296] Submitting ip.
+[main f69c200] Submitting ip.
  1 file changed, 1 insertion(+), 1 deletion(-)
 remote: Resolving deltas:   0% (0/1)        remote: Resolving deltas: 100% (1/1)        remote: Resolving deltas: 100% (1/1), completed with 1 local object.        
 To https://github.com/crtoled/ip-public
-   3aae08f..ea11296  main -> main
+   10ba66b..f69c200  main -> main
+remote: Resolving deltas:   0% (0/1)        remote: Resolving deltas: 100% (1/1)        remote: Resolving deltas: 100% (1/1), completed with 1 local object.        
+To https://github.com/crtoled/ip-public
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at f69c20033c9a12ea970b5adf96cb6a84d338345c but expected 8a28ab1d525ccad7650dbf0bb13fe1a3380fe04e)
+error: failed to push some refs to 'https://github.com/crtoled/ip-public'
