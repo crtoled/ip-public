@@ -1,4 +1,3 @@
-[main d6b9b84] Submitting ip.
+[main 74145ad] Submitting ip.
  1 file changed, 1 insertion(+), 1 deletion(-)
-To https://github.com/crtoled/ip-public
-   a8f14d1..d6b9b84  main -> main
+fatal: unable to access 'https://github.com/crtoled/ip-public/': Could not resolve host: github.com
