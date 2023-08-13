@@ -1,4 +1,3 @@
-[main e28ca6c] Submitting ip.
+[main ebe86a3] Submitting ip.
  1 file changed, 1 insertion(+), 1 deletion(-)
-To https://github.com/crtoled/ip-public
-   a3ff1bf..e28ca6c  main -> main
+fatal: unable to access 'https://github.com/crtoled/ip-public/': Failed to connect to github.com port 443 after 667 ms: No route to host
