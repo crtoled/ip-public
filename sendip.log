@@ -1,7 +1,4 @@
-[main f90db79] Submitting ip.
- 1 file changed, 1 insertion(+), 1 deletion(-)
+[main a267fad] Submitting ip.
+ 1 file changed, 2 insertions(+), 2 deletions(-)
 To https://github.com/crtoled/ip-public
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at f90db793be39adaf51e28eb2156be4590e18a614 but expected 311429340118b6717b531b9b74253ee8f8f456ae)
-error: failed to push some refs to 'https://github.com/crtoled/ip-public'
-To https://github.com/crtoled/ip-public
-   3114293..a12a0bb  main -> main
+   f90db79..a267fad  main -> main
