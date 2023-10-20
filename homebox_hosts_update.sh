@@ -15,7 +15,7 @@ echo $IP >> /etc/hosts
 
 if [ ! -z "${IPADDRESSES[1]}" ]; then
     IP=`echo ${IPADDRESSES[1]} 'homebox' | grep -v '^192.168\|^10'`  # Exclude the internal IPs.
-    echo $IP >> /etc/hosts
+    echo -n $IP >> /etc/hosts
 fi
 
 #echo `cat /tmp/homebox/ip-box2022.txt | tail -n1` '     homebox'  >> /etc/hosts
