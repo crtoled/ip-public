@@ -1,5 +1,4 @@
-[main fec6062] Submitting ip.
+[main e510f73] Submitting ip.
  1 file changed, 1 insertion(+), 1 deletion(-)
 To https://github.com/crtoled/ip-public
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at fec60626f6a8b19fc90dce0c7464c31938798588 but expected 17095d4d4ac072f7cbc8f7026cf8d91b3655a99f)
-error: failed to push some refs to 'https://github.com/crtoled/ip-public'
+   70f6901..e510f73  main -> main
