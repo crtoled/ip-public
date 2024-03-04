@@ -1,4 +1,6 @@
-[main 4f990f6] Submitting ip.
+sudo: unable to resolve host a-pc: Temporary failure in name resolution
+sudo: unable to resolve host a-pc: Temporary failure in name resolution
+[main 993f437] Submitting ip.
  1 file changed, 1 insertion(+), 1 deletion(-)
-To https://github.com/crtoled/ip-public
-   b7397aa..4f990f6  main -> main
+sudo: unable to resolve host a-pc: Temporary failure in name resolution
+fatal: unable to access 'https://github.com/crtoled/ip-public/': Could not resolve host: github.com
