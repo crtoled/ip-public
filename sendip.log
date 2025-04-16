@@ -1,10 +1,4 @@
-[main 1252217] Submitting ip.
- 1 file changed, 2 insertions(+), 2 deletions(-)
+[main f1955ac] Submitting ip.
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 To https://github.com/crtoled/ip-public
- ! [rejected]        main -> main (fetch first)
-error: failed to push some refs to 'https://github.com/crtoled/ip-public'
-hint: Updates were rejected because the remote contains work that you do
-hint: not have locally. This is usually caused by another repository pushing
-hint: to the same ref. You may want to first integrate the remote changes
-hint: (e.g., 'git pull ...') before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+   d0be8cc..f1955ac  main -> main
